@@ -1,6 +1,7 @@
 FROM ubuntu
 MAINTAINER Mark Fernandes <mark.fernandes@ifr.ac.uk>
 
+# simple Dockerfile to practice docler build & demo automatic builds
 ENV APP_USER=guest \
   APP_HOME=/home/$APP_USER
 
