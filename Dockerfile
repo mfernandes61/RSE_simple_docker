@@ -19,7 +19,7 @@ RUN chmod +x scripts/simple.sh
 
 EXPOSE 22
 
-VOLUME $APP_HOME/output
+VOLUME $APP_HOME/test/output
 
 ENTRYPOINT ["scripts/simple.sh"]
 CMD ["/bin/bash"]
